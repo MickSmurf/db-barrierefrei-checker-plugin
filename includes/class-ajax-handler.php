@@ -12,12 +12,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Nimmt die Suchanfrage aus dem Frontend-Formular entgegen, validiert
  * sie und reicht sie an den API-Client weiter.
- *
- * Bewusste Design-Entscheidung (siehe Planungs-Gespräch): Nur
- * `searchstring` und `federalstate` werden aus dem Frontend akzeptiert,
- * nicht die technischeren Parameter wie `eva`, `ril` oder `category` –
- * die sind laut unserer Einteilung nichts, was ein normaler
- * Website-Besucher sinnvoll ausfüllen können soll.
  */
 class DB_Barrierefrei_Check_Ajax_Handler {
 
