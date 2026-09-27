@@ -17,8 +17,6 @@ if (!defined('ABSPATH')) {
  * Filterung der Frontend-Antwort lesen ausschließlich von hier – Felder
  * werden nur an dieser einen Stelle gepflegt.
  *
- * Kategorie-Zuordnung und Begründung entsprechen der gemeinsam
- * erarbeiteten Einteilung (siehe Planungs-Verlauf):
  * - kern:    Barrierefreiheit direkt betroffen
  * - kontext: mobilitätsrelevant, aber indirekt / Backup-Funktion
  * - luxus:   allgemeine Ausstattung ohne Mobilitäts-/Gesundheitsbezug
