@@ -13,8 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Registriert die Settings API für den zentralen Options-Eintrag und
  * kümmert sich um Sanitizing + Verschlüsselung beim Speichern.
  *
- * Wichtiges Verhalten (Passwort-Feld-Muster, wie in der Planung
- * besprochen): Client-ID/-Secret werden im Formular nie im Klartext
+ * Wichtiges Verhalten (Passwort-Feld-Muster: Client-ID/-Secret werden im Formular nie im Klartext
  * zurückgegeben. Lässt der Nutzer ein Feld beim Speichern leer, bleibt
  * der zuvor gespeicherte (verschlüsselte) Wert unverändert bestehen,
  * statt überschrieben/gelöscht zu werden.
