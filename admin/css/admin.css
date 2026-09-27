@@ -1,0 +1,68 @@
+/**
+ * Admin-Styles für DB Barrierefrei-Check.
+ * Nur auf der eigenen Einstellungsseite geladen (siehe class-admin-menu.php).
+ */
+
+.db-barrierefrei-check-settings fieldset {
+    margin: 0 0 1.5em;
+    padding: 1em 1.5em 1.25em;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.db-barrierefrei-check-settings legend {
+    font-weight: 600;
+    padding: 0 0.5em;
+}
+
+.db-barrierefrei-check-settings .description {
+    color: #50575e;
+}
+
+/* Verschachtelte Kategorie-Fieldsets (Kern/Kontext/Luxus) */
+.db-check-felder-kategorie {
+    margin: 1em 0 0;
+    padding: 0.75em 1.25em 1em;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    background: #f6f7f7;
+}
+
+.db-check-felder-kategorie--kern {
+    border-left: 4px solid #00a32a;
+}
+
+.db-check-felder-kategorie--kontext {
+    border-left: 4px solid #dba617;
+}
+
+.db-check-felder-kategorie--luxus {
+    border-left: 4px solid #8c8f94;
+}
+
+.db-check-felder-liste {
+    list-style: none;
+    margin: 0.5em 0 0;
+    padding: 0;
+}
+
+.db-check-felder-liste li {
+    margin-bottom: 0.6em;
+}
+
+.db-check-felder-liste label {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    cursor: pointer;
+}
+
+/* Sichtbarer Fokus-Indikator, siehe ACCESSIBILITY-CHECKLIST.md –
+ * kein outline: none ohne gleichwertigen Ersatz. */
+.db-barrierefrei-check-settings input[type="checkbox"]:focus-visible,
+.db-barrierefrei-check-settings input[type="password"]:focus-visible {
+    outline: 2px solid #2271b1;
+    outline-offset: 2px;
+}
+

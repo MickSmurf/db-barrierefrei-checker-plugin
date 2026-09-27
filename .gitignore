@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# PHPStorm / JetBrains-IDEs
+.idea/
+
+# Composer: nur für IDE-Autovervollständigung (php-stubs/wordpress-stubs)
+# genutzt, siehe Gespräch zu PHPStorm-Warnungen. Nicht zur Laufzeit
+# benötigt, muss also nicht mit ausgeliefert/versioniert werden.
+/vendor/
+composer.lock
+
+# Editor-Backup-Dateien
+*.swp
+*.swo
+*~
+
+# Lokale Logs (z.B. falls beim Debuggen versehentlich im Plugin-Ordner
+# statt in wp-content/ erzeugt)
+*.log
+
+# Node-Tooling (aktuell nicht genutzt, für den Fall dass später ein
+# Build-Schritt für CSS/JS dazukommt)
+node_modules/
+
+# Von present_files/Downloads erzeugte Zip-Archive, falls lokal gebaut
+*.zip
